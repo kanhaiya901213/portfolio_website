@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Kanhaiya Sharma — Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<div class="brand">Kanhaiya Sharma</div>
+			<nav class="nav" id="nav">
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#videos">Videos</a>
+				<a href="#certificates">Certificates</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+		</div>
+	</header>
+
+	<main>
+		<section id="home" class="hero container">
+			<div class="hero-left">
+				<div class="avatar">
+					<img id="profileImage" src="kanhaiya_image.jpeg" alt="Profile photo" onerror="this.style.display='none'; document.querySelector('.avatar-fallback').style.display='block'">
+					<div class="avatar-fallback" style="display:none">
+					  <!-- fallback SVG shown when no real image is present -->
+					  <img src="kanhaiya_image.jpeg" alt="profile placeholder" style="width:120px;height:120px;" />
+					</div>
+				</div>
+				<h1>Hi, I'm <span class="name">Kanhaiya Sharma</span></h1>
+				<p class="lead">Data Scientist | Data Analyst | Python Developer</p>
+				<div class="hero-cta">
+					<a href="#contact" class="btn">Contact Me</a>
+					<a href="#projects" class="btn btn-outline">Projects</a>
+				</div>
+				<div class="socials">
+					<a href="https://www.linkedin.com/in/kanhaiya901213/" target="_blank">LinkedIn</a> • <a href="https://github.com/kanhaiya901213">GitHub</a>
+				</div>
+			</div>
+			<div class="hero-right">
+				<div class="stats-card featured-card">
+					<div class="featured-badge">⭐ Featured Work</div>
+					<h3>Turning data into smart decisions</h3>
+					<p>Builds interactive dashboards, predictive models, and end-to-end data solutions that create real business impact.</p>
+					<ul class="featured-list">
+						<li>📊 Dashboards & analytics</li>
+						<li>🤖 ML models & automation</li>
+						<li>💡 Insight-driven storytelling</li>
+					</ul>
+					<a href="#projects" class="btn btn-sm">Explore Projects</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about container">
+			<h2>About Me</h2>
+			<p>Passionate Data Science graduate with hands-on experience in Machine Learning, Data Analysis, Power BI, SQL, and Python. I enjoy building intelligent applications and interactive dashboards to solve real-world problems.</p>
+		</section>
+
+		<section id="skills" class="skills container">
+			<h2>Skills</h2>
+			<div class="skill-grid">
+				<div class="skill-card">
+					<h4>Programming</h4>
+					<ul>
+						<li>Python</li>
+						<li>SQL</li>
+						<li>Java</li>
+						<li>C</li>
+					</ul>
+				</div>
+				<div class="skill-card">
+					<h4>Data Analysis and Data Handing</h4>
+					<ul>
+						<li>Pandas</li>
+						<li>Numpy</li>
+					</ul>
+				</div>
+				<div class="skill-card">    
+					<h4>Data Visualization</h4>
+					<ul>
+                        <li>Matplotlib</li>
+                        <li>seaborn</li>
+						<li>Power BI</li>
+						<li>Tableau</li>
+						<li>Excel</li>
+					</ul>
+				</div>
+                <div class="skill-card">    
+					<h4>Database</h4>
+					<ul>
+                        <li>Mysql</li>
+                        <li>Firebase</li>
+					</ul>
+				</div>
+                <div class="skill-card">    
+					<h4>Machine Learning</h4>
+					<ul>
+                        <li>Regression</li>
+                        <li>Classification</li>
+						<li>Clustering</li>
+						<li>Feature Engineering</li>
+						<li>Model Evaluation</li>
+						<li>Scikit-Learn</li>
+					</ul>
+				</div>
+
+                <div class="skill-card">    
+					<h4>Deep Learning</h4>
+					<ul>
+                        <li>ANN</li>
+                        <li>CNN</li>
+						<li>RNN</li>
+						<li>NLP</li>
+						<li>LSTM</li>
+					</ul>
+				</div>
+
+				<div class="skill-card">
+					<h4>Tools</h4>
+					<ul>
+						<li>Jupyter</li>
+						<li>VS Code</li>
+                        <li>git</li>
+						<li>GitHub</li>
+                        <li>Google Colab</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="projects container">
+			<h2>Featured Projects</h2>
+			<p class="section-intro">A collection of interactive dashboards, recommendation systems, and predictive models.</p>
+			<div class="projects-grid">
+				<article class="project">
+					<div class="project-thumb dashboard-thumb">📊</div>
+					<h3>Radha Rani Dashboard</h3>
+					<p>Power BI • Data Visualization • Business Insights</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb dashboard-thumb">🏏</div>
+					<h3>Cricket Player Detail Analysis Dashboard</h3>
+					<p>Power BI • Sports Analytics • Performance Trends</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb dashboard-thumb">🦠</div>
+					<h3>COVID-19 Data Analysis Dashboard</h3>
+					<p>Python • Pandas • Dashboarding</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb dashboard-thumb">🛒</div>
+					<h3>E-commerce Sales Dashboard</h3>
+					<p>Power BI • Sales Analytics • KPI Tracking</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb ml-thumb">🎬</div>
+					<h3>Movie Recommendation System</h3>
+					<p>Python • Machine Learning • Cosine Similarity</p>
+					<div class="project-links"><a class="btn btn-sm" href="https://movie-recommendation-p78q.onrender.com/" target="_blank">Live Demo</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb ml-thumb">📚</div>
+					<h3>Book Recommendation System</h3>
+					<p>Python • Recommendation Engine • NLP</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb ml-thumb">📩</div>
+					<h3>SMS Spam Classifier</h3>
+					<p>NLP • Machine Learning • Text Classification</p>
+					<div class="project-links"><a class="btn btn-sm" href="https://email-sms-spam-classifier-b0tu.onrender.com/" target="_blank">Live Demo</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb ml-thumb">💳</div>
+					<h3>Loan Prediction System</h3>
+					<p>Random Forest • Streamlit • Predictive Modeling</p>
+					<div class="project-links"><a class="btn btn-sm" href="https://github.com/kanhaiya901213/Loan_predict_model" target="_blank">View Repo</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+				<article class="project">
+					<div class="project-thumb ml-thumb">🚗</div>
+					<h3>Car Price Prediction</h3>
+					<p>Regression • Python • Machine Learning</p>
+					<div class="project-links"><a class="btn btn-sm" href="#contact">View Details</a> <a class="btn btn-sm btn-outline" href="https://github.com/kanhaiya901213" target="_blank">GitHub</a></div>
+				</article>
+			</div>
+		</section>
+
+		<section id="videos" class="videos container">
+			<h2>Project Videos</h2>
+			<p class="section-intro">Short walkthroughs of my projects and data work.</p>
+			<div class="video-grid">
+				<article class="video-card">
+					<video controls preload="metadata">
+						<source src="movie_recommdetion_video.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Movie Recommendation System</h3>
+					<p>Shows how the system recommends movies using similarity-based filtering and a user-friendly interface.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata">
+						<source src="SMS Spam Classifier.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>SMS Spam Classifier</h3>
+					<p>Highlights the NLP workflow used to classify messages as spam or ham with accurate predictions.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Loan Prediction System</h3>
+					<p>Demonstrates the predictive model for loan approval risk and its practical decision-making use case.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Car Price Prediction System</h3>
+					<p>Explains how the regression model estimates car prices from key features like brand, mileage, and age.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Book Recommendation System</h3>
+					<p>Shows the recommendation logic for suggesting books based on user preferences and content similarity.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Radha Rani Dashboard</h3>
+					<p>Displays an interactive dashboard focused on visual storytelling and key business insights.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>Cricket Player Detail Dashboard</h3>
+					<p>Showcases a sports analytics dashboard that highlights player performance statistics and trends.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>COVID-19 Data Analysis Dashboard</h3>
+					<p>Illustrates the analysis of pandemic data through charts, trends, and key metrics.</p>
+				</article>
+				<article class="video-card">
+					<video controls preload="metadata" poster="assets/portfolio_background_image.png">
+						<source src="assets/videos/project-loan.mp4" type="video/mp4">
+						<p class="video-fallback">Add your video file in the assets/videos folder and update the source path.</p>
+					</video>
+					<h3>E-Commerce Sales Dashboard</h3>
+					<p>Highlights sales performance, customer trends, and business KPIs through an interactive dashboard.</p>
+				</article>
+				
+			</div>
+		</section>
+
+		<section id="certificates" class="certificates container">
+			<h2>Certificates</h2>
+			<div class="cert-grid">
+				<div class="cert">Data Science Training</div>
+				<div class="cert">Python For Data Science</div>
+				<div class="cert">SQL For Data Science</div>
+				<div class="cert">Machine Learning A–Z</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact container">
+			<h2>Contact Me</h2>
+			<div class="contact-grid">
+				<form id="contactForm">
+					<label>Your Name<input type="text" name="name" required></label>
+					<label>Your Email<input type="email" name="email" required></label>
+					<label>Your Message<textarea name="message" rows="4" required></textarea></label>
+					<button class="btn" type="submit">Send Message</button>
+				</form>
+				<div class="contact-info">
+    <p>📧 <a href="mailto:pandit901213@gmail.com">pandit901213@gmail.com</a></p>
+
+    <p>📞 <a href="tel:+916398970750">+91 6398970750</a></p>
+
+    <p>📍 Supertech Near Gaur City Mall, Noida</p>
+
+    <p>
+        💼
+        <a href="https://www.linkedin.com/in/kanhaiya901213/" target="_blank">
+            linkedin.com/in/kanhaiya901213
+        </a>
+    </p>
+
+    <p>
+        💻
+        <a href="https://github.com/kanhaiya901213" target="_blank">
+            github.com/kanhaiya901213
+        </a>
+    </p>
+</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© 2024 Kanhaiya Sharma. All Rights Reserved.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
